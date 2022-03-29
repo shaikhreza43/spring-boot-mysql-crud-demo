@@ -12,6 +12,7 @@ import com.springboot.mysql.crud.app.model.Student;
 import com.springboot.mysql.crud.app.repository.StudentRepository;
 
 @Service
+@SuppressWarnings({"unchecked","rawtypes"})
 public class StudentServiceImpl implements StudentService {
 
 	@Autowired
